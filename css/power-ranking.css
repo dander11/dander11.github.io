@@ -76,10 +76,14 @@ tr.rank td:nth-child(5) {
   display: table-cell;
   padding: 5px 10px;
 }
+
+img {
+  max-width: 300px;
+}
 .teamPicture img{
   position: relative;
-  /* max-width: 150px; */
-  max-height: 100px;
+  max-width: 150px; 
+  /* max-height: 100px;*/
   vertical-align: middle;
   object-fit: cover;
   border-radius: 10px;
