@@ -20,6 +20,8 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
- git push -f git@github.com:dander11/fantasy-football-power-rankings.git master:gh-pages
+ #git push -f git@github.com:dander11/fantasy-football-power-rankings.git gh-pages
+# if you are deploying to https://<USERNAME>.github.io
+ git push -f git@github.com:dander11/dander11.github.io.git master
 
 cd -
